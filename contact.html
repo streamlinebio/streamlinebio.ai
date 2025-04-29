@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Streamline Bio</title>
+<meta name="description" content="Contact the Streamline Bio team to request a demo or partner with us on AI-driven cell and gene therapy manufacturing.">
+<meta property="og:title" content="Contact — Streamline Bio">
+<meta property="og:description" content="Contact the Streamline Bio team to request a demo or partner with us on AI-driven cell and gene therapy manufacturing.">
+<meta property="og:type" content="website">
+<link rel="icon" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Streamline Bio home">
+      <img src="assets/media/2025/06/streamline_bio_logo.png" alt="Streamline Bio">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Our People</a></li>
+      <li class="nav-cta"><a class="btn" href="contact.html#contactform">Schedule a Discovery Call</a></li>
+    </ul>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Contact</span>
+      <h1>Contact Our Team</h1>
+      <p class="lead">Reach out to request a demo or to partner with us.</p>
+      <a class="btn" href="#contactform">Send a message</a>
+    </div>
+    <div class="hero-visual glow">
+      <lottie-player src="assets/media/2025/06/Contact-hero-ilus-circ.json" background="transparent" speed="1" loop autoplay></lottie-player>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Our People</span><h2>Innovation starts with people.</h2></div>
+    <p class="lead">At Streamline Bio, we believe that innovation starts with people. Our team brings together experts in AI, robotics, and advanced therapy manufacturing—united by a shared mission to transform how cell and gene therapies reach patients. We work side-by-side with our partners, combining deep technical expertise with a collaborative mindset to build solutions that scale science and save lives.</p>
+    <div class="person" style="margin-top:34px;">
+      <img src="assets/media/2025/07/Yu_Shun_Leo_Hsiao.jpeg" alt="Yu-Shun (Leo) Hsiao">
+      <div>
+        <h3>Yu-Shun (Leo) Hsiao</h3>
+        <div class="role">Founder &amp; CEO</div>
+        <p>Yu-Shun (Leo) Hsiao, PhD, is the Founder and CEO of Streamline Bio, an AI-driven robotics company building an autonomous platform for end-to-end cell and gene therapy manufacturing — designed to integrate with existing infrastructure, devices, and compliance systems to reduce manual intervention, improve process consistency, and expand patient access to next-generation therapies.</p>
+        <p>A Harvard-trained computer scientist, Dr. Hsiao's doctoral and NVIDIA research focused on safety-aware system optimization for autonomous robots, spanning machine perception, motion planning, and hardware–software co-design. He holds a PhD in Computer Science from Harvard University and a BSc from National Tsing Hua University, Taiwan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="grid grid-2">
+      <div class="media"><video controls preload="none"><source src="assets/media/2025/06/AI-driven.mp4" type="video/mp4"></video></div>
+      <div class="media"><video controls preload="none"><source src="assets/media/2025/06/unit-operations-MacBook-Pro.mp4" type="video/mp4"></video></div>
+    </div>
+  </div>
+</section>
+
+<section id="contactform">
+  <div class="container">
+    <div class="section-head"><h2>Send Us a Message to Learn More About Our Solution</h2>
+      <p class="lead">Please fill out the form and we'll get back to you. You can also email us directly at <a href="mailto:info@streamlinebio.ai">info@streamlinebio.ai</a>.</p>
+    </div>
+    <div class="form-card">
+      <!-- Submits to a Google Form via its formResponse endpoint. The hidden iframe target keeps
+           the visitor on this page; main.js shows a thank-you message on completion. Field names
+           (entry.*) map to the Google Form questions. -->
+      <form id="contact-form" class="form-grid"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdc8L5GIBH6qrVFZjXNyrEy1zwNvXi2ydxolDmDkOaFUp1FCg/formResponse"
+            method="POST" target="gform-target">
+        <div class="field"><label for="fn">First Name</label><input id="fn" name="entry.1512391207" type="text" required></div>
+        <div class="field"><label for="ln">Last Name</label><input id="ln" name="entry.701557208" type="text" required></div>
+        <div class="field"><label for="em">Email</label><input id="em" name="entry.485696765" type="email" required></div>
+        <div class="field"><label for="ph">Phone Number</label><input id="ph" name="entry.1041669657" type="tel"></div>
+        <div class="field"><label for="co">Company</label><input id="co" name="entry.1030989154" type="text"></div>
+        <div class="field"><label for="ind">What is your Industry?</label>
+          <select id="ind" name="entry.193160085"><option value="" selected disabled>Select…</option><option>Biotechnology</option><option>Government</option><option>Investment</option><option>Hospital</option><option>Therapy</option><option>Manufacturing</option><option>Other</option></select>
+        </div>
+        <div class="field full"><label for="msg">Message</label><textarea id="msg" name="entry.609154137"></textarea></div>
+        <div class="field full">
+          <button class="btn" type="submit">Submit</button>
+          <p class="form-status" id="form-status" role="status" hidden></p>
+        </div>
+      </form>
+      <iframe name="gform-target" title="Form submission target" style="display:none" aria-hidden="true"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <a href="index.html"><img src="assets/media/2025/06/streamline_bio_logo.png" alt="Streamline Bio"></a>
+      <ul class="footer-links">
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-use.html">Terms of Use</a></li>
+        <li><a href="mailto:info@streamlinebio.ai">info@streamlinebio.ai</a></li>
+      </ul>
+      <div class="social">
+        <a href="https://www.linkedin.com/company/streamline-bio/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3 0-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21h-4z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Streamline Bio, Inc. All rights reserved.</span>
+      <span>Cambridge, MA &middot; <a href="mailto:info@streamlinebio.ai">info@streamlinebio.ai</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
